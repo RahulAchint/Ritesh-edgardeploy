@@ -1,0 +1,8 @@
+node_modules/
+npm-debug.*
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+.env*
+build/

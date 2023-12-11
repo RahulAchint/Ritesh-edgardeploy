@@ -1,0 +1,1500 @@
+.loginContainer {
+  /* background-color: rgba(0, 35, 62, .9); */
+  min-height: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.loginCard {
+  background-color: white;
+  padding-bottom: 20px;
+  border-radius: 30px;
+  background: #00355f;
+  width: 80%;
+}
+
+.heading {
+  /* color: #fff !important; */
+  font-weight: 700;
+  font-size: 35px;
+  font-family: Helvetica;
+  color: #fff;
+}
+
+.subHeading {
+  font-family: "Helvetica";
+  font-weight: 700;
+  font-size: 21px;
+}
+
+.loginCard img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.loginCardView {
+  width: 60%;
+}
+
+.userImg {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+select {
+  -webkit-appearance: none;
+}
+
+.dateTime {
+  background: linear-gradient(45deg, #0eacb7 0%, #188bba 100%);
+  border-radius: 10px;
+  width: 100%;
+}
+
+/* .downArrowSecond{
+    position:relative;
+top: 0px;
+right: -48px;
+} */
+
+.downArrow {
+  position: relative;
+  right: 23px;
+  top: 0px;
+  pointer-events: none;
+}
+
+[dir="rtl"] .downArrowSecond {
+  left: 29px;
+  right: auto;
+}
+
+.downArrowLtr {
+  position: relative;
+  right: 23px;
+  top: -1px;
+}
+
+.downArrowRtl {
+  position: relative;
+  top: 0px;
+  right: -83px;
+}
+
+.downArrowIcon {
+  position: absolute;
+  right: 12%;
+  transform: translateX(50%);
+  pointer-events: none;
+  top: 8px;
+}
+.downArrow {
+  position: absolute;
+  right: 10%;
+  transform: translateX(50%);
+  pointer-events: none;
+  top: 9px;
+}
+
+[dir="rtl"] .downArrowIcon {
+  left: 22px;
+  right: auto;
+}
+
+.datePickerRoom {
+  width: 100%;
+}
+
+.loginButton .buttonContainer .commonButton {
+  max-width: 150px;
+  width: 150px;
+}
+
+.subscriptionView {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputCard {
+  flex-direction: column;
+  width: 80%;
+  text-align: left;
+}
+
+.inputCard input {
+  border-radius: 10px;
+  border: 1px solid #000;
+  padding-left: 10px;
+}
+
+.editWorkerHeader {
+  flex-direction: column;
+  width: 90%;
+}
+
+.datePickerRoom label {
+  font-size: 20px;
+  color: #00355f;
+  font-weight: 600;
+}
+
+/* .editWorkerHeader h1 h3{
+    color: #fff !important;
+} */
+.editWorkerCard {
+  background: #fff !important;
+  color: #000 !important;
+}
+
+.editWorkerContainer {
+  background-color: rgba(0, 81, 144, 1);
+}
+
+.bookingCard {
+  background-color: rgba(0, 81, 144, 1);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  border-radius: 20px;
+  overflow-y: scroll;
+  height: 95%;
+}
+
+.firstBox {
+  width: 85%;
+  height: 100%;
+  flex-direction: column;
+  background: #00355f;
+  border-radius: 10px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.firsSection {
+  width: 100%;
+  /* border: 1px solid #198ABA; */
+  /* padding: 20px; */
+  border-radius: 10px;
+}
+
+.datePicker label {
+  width: 40%;
+  text-align: left;
+}
+
+/* .datePicker {
+    width: 30%;
+} */
+
+.crossIcon {
+  position: absolute;
+  right: 0px;
+}
+
+.datePicker input {
+  padding: 4px 13px 6px 30px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid rgba(14, 154, 161, 1);
+  width: 30vh;
+}
+
+.imageText {
+  position: absolute;
+  bottom: 25px;
+  font-size: 9px;
+}
+
+.categoryName {
+  margin-left: 10px;
+}
+
+.bookingCard::-webkit-scrollbar {
+  display: none;
+}
+
+.userHeading h3 {
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.datePickerView {
+  width: 33%;
+}
+
+.datePickerView input {
+  width: 50% !important;
+  padding: 4px 13px 6px 30px !important;
+  margin-left: 49%;
+  font-size: small;
+}
+
+.downArrowIconAnalytics {
+  position: absolute;
+  right: 43%;
+  transform: translateX(50%);
+  pointer-events: none;
+  top: 8px;
+}
+
+.centerSection {
+  background: rgba(211, 211, 211, 1);
+  box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.17);
+  width: 50%;
+  border-radius: 20px;
+  height: 60%;
+  overflow: scroll;
+}
+
+.centerSection::-webkit-scrollbar {
+  display: none;
+}
+
+.bookingDetailInput {
+  width: 76% !important;
+}
+
+.bookingDetailInput label:first-child {
+  width: 40% !important;
+}
+
+.profileDetailInput label {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.profileDetailInput input,
+.selectDropdown {
+  width: 70%;
+  padding: 10px 0px;
+  border-radius: 20px;
+  padding-inline-start: 10px;
+  outline: none;
+  border: 1px solid rgba(14, 154, 161, 1);
+}
+.arrow {
+  position: absolute;
+  right: 20%;
+  max-width: 100%;
+}
+.graphContainer .commonButton {
+  width: 178px;
+  margin-left: 8%;
+}
+
+.profileDetailInput label:first-child {
+  width: 35%;
+  color: #00355f;
+}
+
+.profileDetailInput {
+  width: 90%;
+  margin: auto;
+  align-items: center;
+}
+
+.profileDetailInput label:last-child {
+  width: 70%;
+}
+
+.updateButton .commonButton {
+  background: rgb(254, 105, 105);
+  width: 150px;
+}
+
+.commonButton {
+  border-radius: 20px;
+  color: #fff;
+  border: none;
+  padding: 12px ;
+  font-weight: 700;
+  font-size: 17px;
+  min-height: 40px;
+}
+
+canvas {
+  box-sizing: border-box;
+  display: block;
+  width: 80% !important;
+  height: 80% !important;
+}
+
+.profilePicture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.profilePictureView,
+.serialNoView {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.userHeading {
+  background: #00355f;
+  border-radius: 20px 20px 0px 0px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.addButton {
+  cursor: pointer;
+}
+
+.dashboardContainer {
+  width: 100%;
+  padding-top: 10em;
+}
+
+.inputStyle {
+  width: 100%;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 7px;
+  outline: none;
+  padding-inline-start: 10px;
+  margin-top: 8px;
+}
+
+.horizontalBarGraphArrow {
+  width: 300px;
+  margin: auto;
+}
+
+.contact {
+  text-align: start;
+  width: 70%;
+  margin: auto;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: Helvetica !important;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.bookings {
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgba(0, 35, 62, .9); */
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+}
+
+.DatePicker {
+  width: 57%;
+}
+
+.bookingSection {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  /* width: 63%; */
+  /* padding-bottom: 10px; */
+  flex-direction: column;
+  border-radius: 20px !important;
+}
+
+.dropDownSelect {
+  border-radius: 10px;
+  padding-left: 13px !important;
+  width: 65%;
+  background: #fff !important;
+  cursor: pointer;
+  outline: none;
+  padding: 5px;
+}
+
+.gradeDropdown {
+  width: 70%;
+  border-radius: 20px;
+  min-height: 42px;
+  padding-inline: 10px;
+  border: 1px solid rgba(14, 154, 161, 1);
+  outline: none;
+}
+
+.orderHeading {
+  color: #fff;
+}
+
+.category {
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  padding-inline-start: 10px;
+}
+
+.category::placeholder {
+  padding-left: 10px !important;
+}
+
+.signUp {
+  color: rgba(25, 138, 186, 1);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.35;
+  cursor: pointer;
+}
+
+.tableHeading {
+  background: #00355f;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  font-family: Helvetica;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.tableBody {
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+}
+
+.table {
+  margin-top: 10px;
+}
+
+tr {
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.loadMoreView {
+  color: blue;
+  font-size: 17px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+th {
+  word-wrap: break-word;
+}
+
+.table > thead,
+.table > tbody {
+  border-radius: 4px;
+  margin-top: 2px;
+  font-family: Helvetica;
+}
+
+.table > tbody {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+h3 {
+  color: #fff;
+}
+
+/* h1,
+h3 {
+    color: #000;
+} */
+
+.selectDate {
+  /* display: flex;
+   align-items: start;
+   flex-direction: column; */
+}
+
+.selectDatediv {
+  background-color: #fff;
+}
+
+/* .editWorkerCard{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: rgba(0, 81, 144, 1);
+   
+}
+.editWorkerCard h1 h3{
+    color: #fff;
+} */
+
+.details {
+  /* background-color: 
+   rgba(224, 224, 224, 1);  */
+}
+
+tbody:nth-child(even) {
+  background-color: rgba(224, 224, 224, 1);
+}
+
+tbody:nth-child(odd) {
+  background-color: rgba(211, 211, 211, 1);
+}
+
+.roomSearchView input {
+  padding: 4px 30px 6px 12px;
+  border: 1px solid rgba(14, 154, 161, 1);
+  outline: none;
+  border-radius: 10px;
+  font-size: small;
+}
+
+.inputBox {
+  padding: 4px 30px 6px 12px;
+  border: 1px solid rgba(14, 154, 161, 1);
+  outline: none;
+  border-radius: 10px;
+  font-size: small;
+}
+
+.inputBox::placeholder {
+  font-size: 12px;
+  margin-bottom: 20px !important;
+}
+
+.inputBox2 {
+  border-radius: 20px;
+  padding: 4px 20px 6px 20px;
+  border: 1px solid rgba(14, 154, 161, 1);
+  outline: none;
+}
+
+.inputBox2::placeholder {
+  font-size: 12px;
+  margin-bottom: 20px !important;
+  text-align: center;
+}
+
+.formInput,
+.label {
+  width: 90%;
+  margin: auto;
+}
+
+.formInput {
+  padding: 5px 0px 0px 10px;
+}
+
+/* .formInput::-webkit-formInput-placeholder {
+    vertical-align: middle;
+} */
+
+.searchIcon {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  right: 26px;
+  bottom: 1px;
+}
+.searchicon {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  right: 31px;
+  bottom: 1px;
+}
+
+.searchIconRtl {
+  right: -25px;
+}
+
+.edit {
+  text-decoration: underline;
+  cursor: pointer;
+  color: rgba(0, 81, 144, 1);
+}
+
+.delete {
+  text-decoration: underline;
+  cursor: pointer;
+  color: rgba(226, 80, 77, 1);
+}
+
+.timeTableView {
+  min-width: 96px;
+  margin-right: 7px;
+  margin-bottom: 7px;
+  min-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(224, 224, 224, 1);
+  border-radius: 10px;
+}
+
+.dropDown {
+  background: #fff;
+  color: #000;
+  border-radius: 10px;
+  font-size: 15px !important;
+  padding: 4px 26px 4px 8px;
+  border: 1px solid rgba(14, 154, 161, 1);
+  font-weight: 700;
+  outline: none;
+  cursor: pointer;
+}
+
+.searchView,
+.roomSearchView {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .roomSearchView input {
+    width: 100%;
+} */
+
+.inputStyle::placeholder {
+  font-size: 15px;
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+  /* width: 100%; */
+}
+
+.addOrder {
+  /* height: 80vh;
+    overflow: scroll;
+    background-color: white;
+padding-bottom: 20px;
+border-radius: 20px; */
+}
+
+.commonButtonSolid {
+  border-radius: 10px;
+  padding: 5px 20px;
+  color: #fff;
+  background-color: rgba(226, 80, 77, 1);
+  border: none;
+  font-weight: 700;
+}
+
+.dropDownSecondView {
+  position: relative;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 5px 4px;
+  min-width: 58px;
+}
+
+.dropDownSecondView img {
+  position: absolute;
+  pointer-events: none !important;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0.3rem;
+}
+
+/* [dir="Rtl"].dropDownSecondView img{
+    left: 2.2rem !important;
+    right: auto;
+} */
+.dropDownSecond {
+  background: #fff;
+  color: #000;
+  border: none;
+  font-weight: 700;
+  width: 100%;
+  text-align: left;
+  padding-inline-start: 2px;
+}
+
+/* [dir="Rtl"].dropDownSecond{
+    text-align: left !important;
+    background: #fff;
+    color: #000;
+    border: none;
+    font-weight: 700;
+    width: 100%;
+} */
+.dropDownSecond:focus-visible {
+  outline: 0 !important;
+}
+
+.times {
+  background-color: #ffffff;
+  color: #0daeb6;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: Helvetica;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.times:hover {
+  background-color: grey;
+  color: #ffffff;
+}
+
+.editCard {
+  flex-direction: column;
+  width: 80%;
+}
+
+.subBookingSection {
+  width: 30% !important;
+  position: relative;
+}
+
+[dir="Rtl"] .payment,
+[dir="Rtl"] .status {
+  width: 80%;
+  text-align: right !important;
+}
+
+.payment,
+.status {
+  width: 80%;
+  text-align: left;
+}
+
+.imgIcon {
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+.roomGradeDropdown {
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid rgba(14, 154, 161, 1);
+  width: 100%;
+  padding: 5px 23px !important;
+}
+
+.inputMainContainer {
+  width: 80%;
+  margin: auto;
+}
+
+.inputTime {
+  width: 57%;
+  padding: 4px 20px 6px 20px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid rgba(14, 154, 161, 1);
+}
+
+.bothSideArrow {
+  height: 200px;
+  width: 1px;
+  background: grey;
+  margin-right: 20px;
+  position: relative;
+}
+
+.bothSideHorizontalArrow {
+  height: 1px;
+  width: 100%;
+  margin-top: 20px;
+  background: grey;
+}
+
+.barGraphDownArrow {
+  position: absolute;
+  right: 11px;
+  bottom: -9px;
+  width: 20px;
+  filter: opacity(0.5);
+}
+
+.barGraphText {
+  position: absolute;
+  width: 100px;
+  rotate: 270deg;
+  right: -9px;
+  bottom: 79px;
+  font-weight: 700;
+}
+
+.barGraphUserText {
+  font-weight: 700;
+}
+
+.barGraphHorizontalLeftArrow {
+  position: absolute;
+  left: -7px;
+  top: 11px;
+  rotate: 90deg;
+  width: 20px;
+  filter: opacity(0.5);
+}
+
+.barGraphHorizontalRightArrow {
+  position: absolute;
+  right: -7px;
+  top: 11px;
+  rotate: -90deg;
+  width: 20px;
+  filter: opacity(0.5);
+}
+
+.barGraphUpArrow {
+  position: absolute;
+  width: 20px;
+  right: 11px;
+  top: -9px;
+  rotate: 180deg;
+  filter: opacity(0.5);
+}
+
+/* .datePickerView input {
+    width: 100% !important;
+} */
+
+@media (max-width: 1280px) {
+  /* .datePicker input {
+        width: 75%;
+    } */
+    .dashboardContainer{
+        padding-top: 7em !important;
+    } 
+  .dropDownSelect {
+    width: 75%;
+  }
+  .datePickerView input{
+    width: 70% !important;
+  }
+}
+
+@media (max-width: 1124px) {
+  .datePickerView input {
+    width: 90% !important;
+  }
+
+  .profileDetailInput label:first-child {
+    width: 50% !important;
+  }
+
+  .datePicker input {
+    width: 100%;
+    margin: 0;
+   
+  }
+}
+@media (max-width: 1024px) {
+    .dashboardContainer{
+        padding-top: 6em !important;
+    } 
+    .arrow {
+    right: 18%;
+  }
+  .bookingDetailInput {
+    width: 98% !important;
+  }
+  .datePickerView input{
+    width: 97% !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .centerSection {
+    width: 80%;
+  }
+
+  .profileDetailInput label:first-child {
+    width: 53% !important;
+  }
+
+  .roomSearchInput {
+    width: 30%;
+  }
+
+  .buttonContainer {
+    width: 93%;
+    margin-left: 8%;
+  }
+
+  .roomSearchInput input {
+    width: 100%;
+  }
+
+  .downArrowIcon {
+    left: auto;
+    right: 15%;
+  }
+
+  .datePicker {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .datePicker input {
+    width: 100%;
+    padding-inline: 5px;
+  }
+
+  .subBookingSection {
+    width: 33% !important;
+    justify-content: center;
+  }
+
+  .createRoomButton {
+    width: 30% !important;
+  }
+  .arrow {
+    right: 12%;
+  }
+
+
+
+  .roomSearchView input {
+    padding: 4px 1px 6px 6px;
+    border: 1px solid rgba(14, 154, 161, 1);
+    outline: none;
+    border-radius: 10px;
+    width: 110%;
+  }
+
+  .dropDownSelect {
+    width: 100%;
+  }
+
+
+
+
+  .searchIcon {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 13px !important;
+    top: 5%;
+    transform: translateY(50%);
+  }
+  .searchicon {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 27px !important;
+    top: 0%;
+    transform: translateY(50%);
+  }
+  .searchInputView,
+  .datePickerView {
+    width: 40%;
+  }
+
+  .searchInputView input,
+  .datePickerView input {
+    width: 75% !important;
+    margin: 0 !important;
+  }
+}
+@media (max-width: 912px) {
+    .dashboardContainer{
+        padding-top:7em !important;
+    }
+    .downArrow {
+    right: 18%;
+  }
+  .searchicon {
+    right: -9px !important;
+  }
+}
+@media (max-width: 820px) {
+    .dashboardContainer{
+        padding-top:6em !important;
+    }
+    .downArrow {
+    right: 15%;
+  }
+  .graphContainer .commonButton{
+    width: auto !important;
+  }
+  .datePicker input{
+    padding: 4px 10px 6px 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .loginCardView {
+    background: #00355f;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    width: 80% !important;
+  }
+  .searchicon{
+    right: 8px !important;
+  }
+  .datePicker input {
+    padding: 5px 10px 5px 10px;
+    width: 100%;
+  }
+  .downArrowIcon {
+    right: 11%;
+  }
+  .arrow {
+    right: 17%;
+  }
+  .loginCardView img {
+    height: 40px !important;
+    width: 10% !important;
+  }
+
+  .inputStyle {
+    padding: 7px 7px;
+  }
+
+  .commonButton {
+    padding: 9px 3px;
+    font-size: 13px;
+    width: 100%;
+    font-weight: 500;
+  }
+
+  .centerSection {
+    width: 80%;
+  }
+  .graphContainer .commonButton{
+    width: 178px !important;
+  }
+  .profileDetailInput label:first-child {
+    width: 45%;
+  }
+
+  .searchInput {
+    position: absolute;
+    right: 60px;
+    bottom: 10px;
+  }
+
+  .roomSearchView {
+    margin: auto;
+    width: 100%;
+    margin-top: 4%;
+  }
+
+  .roomSearchView input {
+    padding: 4px 1px 6px 6px;
+    border: 1px solid rgba(14, 154, 161, 1);
+    outline: none;
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  .createRoomButton {
+    padding: 5px 0px !important;
+    width: 30% !important;
+    /* margin-top: 10px; */
+    /* margin: auto; */
+    line-height: 14px;
+    justify-content: end !important;
+  }
+
+  .roomSearchInput {
+    width: 33%;
+  }
+
+  .datePicker {
+    width: 30%;
+  }
+
+  .searchView {
+    margin-top: 30px;
+  }
+
+  .datePickerView {
+    width: 40%;
+  }
+  .downArrow {
+    right: 27%;
+  }
+}
+
+@media (max-width: 540px) {
+  .downArrow {
+    right: 16%;
+  }
+  .graphContainer .commonButton{
+    width: auto !important;
+}
+.graphContainer{
+    margin-top: 5% !important;
+}
+}
+@media (max-width: 480px) {
+    .buttonContainer {
+        width: 89% !important;
+        /* margin-left: 16%; */
+        justify-content: center !important;
+        display: flex !important;
+        align-items: center !important;
+    }
+    .loginCardView {
+    background: #00355f;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    width: 90% !important;
+  }
+
+  .loginCardView img {
+    height: 40px !important;
+    width: 15% !important;
+  }
+
+  .contact {
+    width: 100%;
+  }
+
+  .centerSection {
+    width: 90% !important;
+  }
+
+  .loginCard {
+    width: 90%;
+  }
+
+  .inputStyle {
+    padding: 7px 10px;
+    border-radius: 15px;
+  }
+
+  .graphContainer {
+    flex-wrap: wrap;
+    display: flex !important;
+    justify-content: right;
+    /* margin-left: -15% !important; */
+    width: 100% !important;
+  }
+
+  .datePicker input {
+    width: 93%;
+    margin-left: 0% !important;
+    margin-right: 0;
+    margin-top: 5%;
+  }
+ 
+
+  .roomSearchInput {
+    width: 75%;
+    margin: auto;
+  }
+
+  .roomSearchInput input {
+    width: 85%;
+    margin-bottom: 10px;
+    margin-left: 3%;
+  }
+
+  .searchViewInner {
+    display: flex;
+  }
+
+  .createRoomButton {
+    padding: 5px 0px !important;
+    width: 90% !important;
+    margin-top: 10px;
+    
+  }
+
+  .createRoomButton .buttonContainer .commonButton {
+    width: 100% !important;
+    min-height: 38px;
+  }
+
+  /* 
+        .inputBox {
+            padding: 5px 0px !important;
+            width: 89%;
+            margin-bottom: 10px;
+        } */
+
+  .inputBox::placeholder {
+    padding-left: 10px;
+  }
+
+  .table > tbody {
+    font-size: 12px;
+  }
+
+  .tableHeading {
+    font-size: 13px;
+  }
+
+  .bookingCard {
+    width: 80%;
+  }
+
+  .commonButton {
+    padding: 7px !important;
+    font-size: 15px !important;
+    width: 75% !important;
+    min-height: 40%;
+  }
+
+  .commonButtonSolid {
+    padding: 0px 7px;
+    font-size: 12px;
+  }
+
+  .dropDown {
+    font-size: 12px !important;
+    width: 79%;
+  }
+
+  .downArrow {
+    width: 15px;
+    right: 20px;
+  }
+
+  .downArrowRtl {
+    right: -63px;
+    width: 13px;
+  }
+
+  .subscriptionText {
+    font-size: 15px;
+  }
+
+  .dropDownSelect {
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  .searchIcon {
+    width: 15px;
+    height: 15px;
+    /* position: relative; */
+    right: 6% !important;
+    bottom: 1px;
+    position: absolute;
+    top: 53% !important;
+    transform: translateY(-50%);
+  }
+
+  /* .imgIcon {
+            width: 9px !important;
+            height: 9px !important;
+        } */
+  .heading {
+    font-size: 30px;
+  }
+
+  .arrow {
+    right: 15%;
+  }
+  /* .profileDetailInput input {
+        width: 60%;
+    } */
+
+  .profileDetailInput label:first-child {
+    width: 60% !important;
+  }
+
+  .profileDetailInput label {
+    font-size: 16px;
+  }
+
+  .roomSearchView {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .datePicker {
+    width: 85% !important;
+    margin-left: 1% !important
+  }
+
+  .downArrowIcon {
+    /* position: absolute;
+        left: 85%;
+        transform: translatey(50%);
+        pointer-events: none;
+        top: 8px; */
+    position: absolute;
+    left: 81%;
+    transform: translateY(50%);
+    pointer-events: none;
+    top: 0%;
+  }
+
+  .roomGradeDropdown {
+    padding: 10px 20px !important;
+  }
+
+  .searchView {
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: center;
+  }
+
+  .searchInputView {
+    width: 75%;
+    margin: auto auto 15px;
+  }
+
+  .searchInputView input {
+    width: 100% !important;
+  }
+
+  .subBookingSection {
+    width: 70% !important;
+    position: relative;
+  }
+
+  /* .barGraphArrow{
+        width: 300px;
+    margin: auto;
+    } */
+  .buttonContainer {
+    width: 70%;
+ 
+  }
+
+  .barGraphHorizontalLeftArrow {
+    left: -7px;
+    rotate: 90deg;
+  }
+  .dashboardContainer {
+    padding-top: 6em !important;
+}
+.firstBox{
+    width: 21vh !important;
+}
+  .bothSideHorizontalArrow {
+    width: 100%;
+  }
+
+  .bothSideArrow {
+    height: 120px;
+  }
+
+  .horizontalBarGraphArrow {
+    width: 190px;
+  }
+
+  canvas {
+    box-sizing: border-box;
+    display: block;
+    width: 80% !important;
+    min-height: 200px;
+  }
+
+  .barGraphText {
+    top: 53px;
+    right: 5px;
+  }
+
+  .profileDetailInput label:last-child {
+    width: 55% !important;
+  }
+
+  /* .datePickerView {
+        width: 100%;
+    } */
+
+  .datePickerView input {
+    width: 100%;
+    margin-left: 0% !important;
+  }
+
+  .buttonContainer .commonButton {
+    width: 75% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inputTime {
+    width: 70%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .roomGradeDropdownView {
+    width: 70% !important;
+  }
+}
+@media (max-width: 414px) {
+    .createRoomButton{
+        justify-content: center !important;
+    }
+    .dashboardContainer {
+        padding-top: 11em !important;
+    }
+    .inputBox {
+      width: 100%;
+      margin-left: 2% !important;
+    }
+    .downArrow {
+      right: 15% !important;
+    }
+  
+    .datePickerRoom label {
+      font-size: 17px;
+    }
+    .searchicon {
+      right: 12% !important;
+    }
+  }
+  @media (max-width: 393px){
+    .dashboardContainer {
+        padding-top: 9em !important;
+    }
+  } 
+  @media (max-width: 390px){
+    .dashboardContainer {
+        padding-top: 9em !important;
+    }
+  } 
+  @media (max-width: 360px){
+    .dashboardContainer {
+        padding-top: 7em !important;
+    }
+  } 
+@media (max-width: 280px) {
+    .searchIcon {
+        top: 52% !important;
+  }
+  .searchicon {
+    right: 7% !important;
+  }
+
+  .roomSearchInput input{
+    width: 99% !important;
+    margin-left: 0% !important;
+  }
+  .buttonContainer{
+    width: 84% !important;
+  }
+  .datePicker input{
+    margin-top: 0% !important;
+  }
+  .inputBox{
+    width: 100% !important;
+  }
+  .datePicker {
+    width: 100% !important;
+    margin-left: auto !important;
+}
+.downArrow {
+    right: 9% !important;
+}
+.dashboardContainer {
+    padding-top: 6em !important;
+}
+.firstBox{
+    width: 18vh !important;
+}
+}
